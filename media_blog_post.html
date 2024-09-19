@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <style>
+        h1 {
+            background-color: #6D6A75;
+            padding: 10;
+            border: 3px solid #DEB841;
+        }
+
+        body {
+            background-color: #37323E;
+            color: #DEB841;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        textarea,
+        a {
+            background-color: #37323E;
+            color: #DEB841;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            margin: 1%;
+            border: 1%;
+            padding: 1%;
+        }
+
+        div {
+            width: 100%;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            background-color: #6D6A75;
+            border: 3px solid #DEB841;
+        }
+
+        .flex-item {
+            color: #DEB841;
+            border: 2px solid #DEB841;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My blog</h1>
+    <nav>
+        <a href="blog_layout.html">Home</a>
+        <a href="table_of_contents.html">Table of Contents</a>
+        <a href="blog_post_form.html">Blog Post Form</a>
+        <a href="media_blog_post.html">Media</a>
+    </nav>
+    <h2>Media</h2>
+    <div class="flex-container">
+        <div class="flex-item"> <iframe width="853" height="480" src="https://www.youtube.com/embed/L3tsYC5OYhQ"
+                title="Silly cat video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="flex-item">
+            <caption>Here is a funny cat</caption>
+            <br>
+            <iframe
+                src="https://static.wikia.nocookie.net/floppapedia-revamped/images/a/a4/Unico.jpg/revision/latest?cb=20221117214435"
+                height=267 width=400 title="silly"></iframe>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item"><audio controls>
+                <source src="CARELESS WHISPER(MEOW VERSION).mp3" type="audio/mpeg">
+            </audio></div>
+        <div class="flex-item"> <video width="480" height="514" controls>
+                <source src="i put sound over cat gifs.mp4" type="video/mp4">
+            </video></div>
+    </div>
+</body>
+
+</html>

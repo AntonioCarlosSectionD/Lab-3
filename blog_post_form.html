@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <style>
+       h1 {
+            background-color: #6D6A75;
+            padding:10;
+            border: 3px solid #DEB841;
+        }
+
+        body {
+            background-color: #37323E;
+            color: #DEB841;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        a {
+            background-color: #37323E;
+            color: #DEB841;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        textarea {
+            background-color: #6D6A75;
+            color: #DEB841;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>Blog post form</title>
+</head>
+
+<body>
+    <h1>My blog</h1>
+    <nav>
+        <a href="blog_layout.html">Home</a>
+        <a href="table_of_contents.html">Table of Contents</a>
+        <a href="blog_post_form.html">Blog Post Form</a>
+        <a href="media_blog_post.html">Media</a>
+    </nav>
+    <h2>Blog Post Form</h2>
+    <p>Enter the title</p>
+    <textarea name="message" rows="4" cols="50" placeholder="Title"></textarea>
+    <br>
+    <p>Enter the author's name</p>
+    <textarea name="message" rows="4" cols="50" placeholder="Author"></textarea>
+    <br>
+    <p>Enter a brief description</p>
+    <textarea name="message" rows="4" cols="50" placeholder="Description"></textarea>
+    <br>
+    <p>select the category for your blog</p>
+    <select name="blog" id="blog-select">
+        <option value="">--Please choose a category--</option>
+        <option value="sports">sports</option>
+        <option value="entertainment">entertainment</option>
+        <option value="technology">techology</option>
+        <option value="hobbies">hobbies</option>
+    </select>
+    <button type="button" onclick="alert('blog submitted! yippee!')">submit</button>
+</body>
+
+</html>
